@@ -100,6 +100,87 @@
       </div>
       </div>
 
+
+      <div class="row justify-content-center mt-5">
+        <div class="col-3">
+        <button type="button" class="btn bg-dark text-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa fa-user"></i>
+          Clicca qui per prenotare il tuo viaggio
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-brown">
+                <h1 class="modal-title fs-5 " id="staticBackdropLabel">Prenota viaggio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <form class="row g-3">
+
+                  <div class="col-md-6">
+                    <label for="inputCognome" class="form-label">Cognome</label>
+                    <input type="text" class="form-control" id="inputCognome" >
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputNome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="inputNome">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Indirizzo</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Via roma 5">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Citta</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputRegione" class="form-label">Regione</label>
+                    <select id="inputRegione" class="form-select">
+                      <option selected>Lombardia</option>
+                      <option>Lazio</option>
+                      <option>Campania</option>
+                      <option>Veneto</option>
+                      <option>Sicilia</option>
+                      <option>Piemonte</option>
+                      <option>Toscana</option>
+                      <option>Altro...</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="inputCap" class="form-label">C.A.P</label>
+                    <input type="text" class="form-control" id="inputCap">
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Presa visione dei termini e condizioni
+                      </label>
+                    </div>
+                  </div>
+                  <!--bottone-->
+                  <div class="col-12">
+                    <button type="submit" class="btn button-form">Registrati</button>
+                  </div>
+                </div>
+                </form>
+
+
+      </div>
+          </div>
+
+
+
+
     </main>
 
     <div class="container mt-5">
