@@ -17,7 +17,7 @@
 
     <header>
 
-      <nav class="navbar navbar-expand-lg bg-secondary shadow">
+      <nav class="navbar navbar-expand-lg bg-success shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Travlean</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,13 +126,13 @@
                     <label for="inputNome" class="form-label">Nome</label>
                     <input type="text" class="form-control" id="inputNome">
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <label for="inputEmail" class="form-label">Email</label>
                     <input type="email" class="form-control" id="inputEmail">
                   </div>
-                  <div class="col-md-6">
-                    <label for="inputPassword" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputPassword">
+                  <div class="col-md-12">
+                    <label for="inputNumero" class="form-label">Numero di telefono</label>
+                    <input type="number" class="form-control" id="inputNumero" placeholder="333-3333333">
                   </div>
                   <div class="col-12">
                     <label for="inputAddress" class="form-label">Indirizzo</label>
@@ -152,12 +152,39 @@
                       <option>Sicilia</option>
                       <option>Piemonte</option>
                       <option>Toscana</option>
+                      <option>Abruzzo</option>
+                      <option>Basilicata</option>
+                      <option>Calabria</option>
+                      <option>Emilia Romagna</option>
+                      <option>Friuli Venezia Giulia</option>
+                      <option>Liguria</option>
                       <option>Altro...</option>
                     </select>
                   </div>
-                  <div class="col-md-2">
+                  <div class="col-md-2 mb-3">
                     <label for="inputCap" class="form-label">C.A.P</label>
                     <input type="text" class="form-control" id="inputCap">
+                  </div>
+                  <div class="col-12 mb-2">
+                    <h5>Chose Travel</h5>
+                  </div>
+                  <div class="form-check col-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Explore The Sea
+                    </label>
+                  </div>
+                  <div class="form-check col-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Hike in the Forest
+                    </label>
+                  </div>
+                  <div class="form-check col-4">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Camp in the snow
+                    </label>
                   </div>
                   <div class="col-12">
                     <div class="form-check">
@@ -169,7 +196,7 @@
                   </div>
                   <!--bottone-->
                   <div class="col-12">
-                    <button type="submit" class="btn button-form">Registrati</button>
+                    <button type="submit" class="btn btn-dark">Registrati</button>
                   </div>
                 </div>
                 </form>
